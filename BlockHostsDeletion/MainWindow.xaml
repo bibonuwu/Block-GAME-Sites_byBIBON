@@ -1,0 +1,10 @@
+﻿<Window x:Class="ProtectHostsFile.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Protect Hosts File" Height="125" Width="300">
+    <Grid>
+        <Label>by bibon</Label>
+        <Button Content="Защитить файл Hosts" HorizontalAlignment="Center" VerticalAlignment="Top" Width="150" Height="50" Margin="0,30,0,0" Click="ProtectHostsButton_Click"/>
+
+    </Grid>
+</Window>
